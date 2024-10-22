@@ -39,6 +39,7 @@ h1{
     border: none;
     height: 40px;
     border-radius: 3px;
+    padding: 5px 7px;
 }
 
 .start-game-btn:hover{
