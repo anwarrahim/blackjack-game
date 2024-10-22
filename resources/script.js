@@ -6,7 +6,7 @@ let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
 let message = " "
-let thirdCard = 4;
+
 
 // 2. Create a startGame() function. Move the conditional
 // below (line 11-20) inside the body of the function.
@@ -39,6 +39,7 @@ function startGame() {
 
 
 function newCard(){
+    let thirdCard = 4;
     thirdCard +=sum
     sumEl.textContent ="Sum: "+ thirdCard
 
