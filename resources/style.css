@@ -40,10 +40,10 @@ h1{
     height: 40px;
     border-radius: 3px;
     padding: 5px 7px;
-    margin: 4px 0;
+    margin: 6px 0;
     text-transform: uppercase;
 }
 
-.start-game-btn:hover{
+.game-btn:hover{
     box-shadow: 3px 3px white;
 }
