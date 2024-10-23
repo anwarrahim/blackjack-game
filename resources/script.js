@@ -1,4 +1,9 @@
 
+// creating object
+let player = {
+    name : "Anwar",
+    chips: 34
+}
 
 
 let cards = []
@@ -8,8 +13,6 @@ let isAlive = false
 let message = " "
 
 
-// 2. Create a startGame() function. Move the conditional
-// below (line 11-20) inside the body of the function.
 
 let messageEl = document.getElementById("message-el")
 console.log(messageEl)
@@ -20,6 +23,7 @@ let sumEl = document.getElementById("sum-el")
 // card values
 
 let cardEl = document.querySelector(".card-el")
+let playerEl = document.getElementById("player-el")
 
 
 function startGame(){
@@ -67,6 +71,7 @@ function renderGame() {
     }
     // 2. Display the message in the messageEl using messageEl.textContent
     messageEl.textContent = message
+    playerEl.textContent = player.name +": $"+ player.chips
 }
 
 
