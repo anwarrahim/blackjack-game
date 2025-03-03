@@ -30,7 +30,7 @@ h1{
 
 /*................................................button.....................................................*/
 
-.game-btn{
+#game-btn{
     color: #016f32;
     font-size: 20px;
     font-weight: bold;
@@ -44,6 +44,6 @@ h1{
     text-transform: uppercase;
 }
 
-.game-btn:hover{
+#game-btn:hover{
     box-shadow: 3px 3px white;
 }
