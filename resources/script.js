@@ -48,9 +48,6 @@ drawCardBtn.addEventListener("click", () => {
                     header.textContent = "It's a tie game!"
                 }
             }
-            else(data.remaining === 52){
-                drawCardBtn.disabled =false
-            }
         })
 })
 
