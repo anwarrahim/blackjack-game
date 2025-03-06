@@ -77,6 +77,3 @@ function determineCardWinner(card1, card2) {
     }
 }
 
-
-
-
